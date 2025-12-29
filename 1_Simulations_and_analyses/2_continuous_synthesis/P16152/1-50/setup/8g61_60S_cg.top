@@ -1,0 +1,142 @@
+* This CHARMM .top file describes CG model of ribosome 50S subunit
+*
+20 1
+! backbone masses
+MASS 1   P        95.000000
+MASS 2   R        92.000000
+MASS 3   BR       64.000000
+MASS 4   SG       57.000000
+MASS 5   SA       71.000000
+MASS 6   SV       99.000000
+MASS 7   SL       113.000000
+MASS 8   SI       113.000000
+MASS 9   SM       131.000000
+MASS 10  SF       147.000000
+MASS 11  SP       114.000000
+MASS 12  SS       87.000000
+MASS 13  ST       101.000000
+MASS 14  SC       114.000000
+MASS 15  SN       114.000000
+MASS 16  SQ       128.000000
+MASS 17  SY       163.000000
+MASS 18  SW       186.000000
+MASS 19  SD       114.000000
+MASS 20  SE       128.000000
+MASS 21  SH       114.000000
+MASS 22  SK       128.000000
+MASS 23  SR       114.000000
+
+RESI CGA        -1.0 ! Adenine
+GROUP
+ATOM P  P       -1.0
+ATOM R  R        0.0
+ATOM PU1 BR      0.0
+ATOM PU2 BR      0.0
+
+RESI CGU        -1.0 ! Uracil
+GROUP
+ATOM P  P       -1.0
+ATOM R  R        0.0
+ATOM PY BR       0.0
+
+RESI CGG        -1.0 ! Guanine
+GROUP
+ATOM P  P       -1.0
+ATOM R  R        0.0
+ATOM PU1 BR      0.0
+ATOM PU2 BR      0.0
+
+RESI CGC        -1.0 ! Cytosine
+GROUP
+ATOM P  P       -1.0
+ATOM R  R        0.0
+ATOM PY BR       0.0
+
+RESI SG          0.0 ! GLY alpha carbon
+GROUP
+ATOM SG  SG      0.0
+
+RESI SA          0.0 ! ALA alpha carbon
+GROUP
+ATOM SA  SA      0.0
+
+RESI SV          0.0 ! VAL alpha carbon
+GROUP
+ATOM SV  SV      0.0
+
+RESI SL          0.0 ! LEU alpha carbon
+GROUP
+ATOM SL  SL      0.0
+
+RESI SI          0.0 ! ILE alpha carbon
+GROUP
+ATOM SI  SI      0.0
+
+RESI SM          0.0 ! MET alpha carbon
+GROUP
+ATOM SM  SM      0.0
+
+RESI SF          0.0 ! PHE alpha carbon
+GROUP
+ATOM SF  SF      0.0
+
+RESI SP          0.0 ! PRO alpha carbon
+GROUP
+ATOM SP  SP      0.0
+
+RESI SS          0.0 ! SER alpha carbon
+GROUP
+ATOM SS  SS      0.0
+
+RESI ST          0.0 ! THR alpha carbon
+GROUP
+ATOM ST  ST      0.0
+
+RESI SC          0.0 ! CYS alpha carbon
+GROUP
+ATOM SC  SC      0.0
+
+RESI SN          0.0 ! ASN alpha carbon
+GROUP
+ATOM SN  SN      0.0
+
+RESI SQ          0.0 ! GLN alpha carbon
+GROUP
+ATOM SQ  SQ      0.0
+
+RESI SY          0.0 ! TYR alpha carbon
+GROUP
+ATOM SY  SY      0.0
+
+RESI SW          0.0 ! TRP alpha carbon
+GROUP
+ATOM SW  SW      0.0
+
+RESI SD         -1.0 ! ASP alpha carbon
+GROUP
+ATOM SD  SD     -1.0
+
+RESI SE         -1.0 ! GLU alpha carbon
+GROUP
+ATOM SE  SE     -1.0
+
+RESI SH          0.0 ! HIS alpha carbon
+GROUP
+ATOM SH  SH      0.0
+
+RESI SK          1.0 ! LYS alpha carbon
+GROUP
+ATOM SK  SK      1.0
+
+RESI SR          1.0 ! ARG alpha carbon
+GROUP
+ATOM SR  SR      1.0
+
+PRES LINK         0.00 ! linkage for IMAGES or for joining segments
+                       ! 1 refers to previous (N terminal)
+                       ! 2 refers to next (C terminal)
+                       ! use in B patch statement
+                       ! follow with AUTOgenerate ANGLes DIHEdrals command
+BOND 1A 2A
+
+END

@@ -1,0 +1,17 @@
+use_gpu = 1
+tpn = 1
+ppn = 1
+num_traj = 50
+psf = setup/Q0PNE2_clean_ca.psf
+top = setup/Q0PNE2_clean_ca.top
+param = setup/Q0PNE2_clean_nscal1_fnn1_go_bt.prm
+starting_strucs = setup/Q0PNE2_clean_ca.cor
+temp_equil = 800
+temp_prod = 310
+nsteps_equil = 4000000
+nsteps_prod = 133340000
+nsteps_save = 5000
+Q_threshold = 1.1
+secondary_structure_def = setup/secondary_struc_defs.txt
+log_file = info.log
+restart = 1

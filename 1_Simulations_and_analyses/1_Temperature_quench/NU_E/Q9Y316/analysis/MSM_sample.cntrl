@@ -1,0 +1,17 @@
+n_traj = 50
+mutant_type_list = Tq
+n_cluster = 400
+stride=1
+n_large_states = 20
+n_small_states = 2
+lag_t = 1
+sample_size = 5
+frame_offset = 0
+xnbins = 50
+ynbins = 50
+native_AA_pdb = /storage/home/yuj179/mygroup/protein_Ubq/new/Tq/NU_E/Q9Y316/setup/Q9Y316.pdb
+prefix_dir = /storage/home/yuj179/mygroup/protein_Ubq/new/Tq/NU_E/Q9Y316/
+visualiz_threshold = 0.005
+if_cluster = 0
+if_visualize = 1
+if_sample = 1

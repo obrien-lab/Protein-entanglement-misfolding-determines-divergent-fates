@@ -1,0 +1,18 @@
+NCL_div = 1 101 201
+n_traj = 50
+mutant_type_list = P16152
+n_cluster_per_div = 200
+stride = 1
+n_large_states = 3
+n_small_states = 2
+lag_t = 1
+sample_size = 5
+ribo_psf = /storage/home/yuj179/mygroup/ribosome/Human/8g61_cg/8g61_60S_cg.psf
+ribo_cor = /storage/home/yuj179/mygroup/ribosome/Human/8g61_cg/8g61_60S_cg.cor
+native_AA_pdb = /storage/home/yuj179/mygroup/protein_Ubq/continuous_synthesis/P16152/1-50/setup/P16152.pdb
+prefix_dir = /storage/home/yuj179/mygroup/protein_Ubq/
+visualiz_threshold = 0.0025
+if_cluster = 1
+if_visualize = 1
+if_sample = 1
+

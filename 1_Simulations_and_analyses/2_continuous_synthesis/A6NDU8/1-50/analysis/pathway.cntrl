@@ -1,0 +1,7 @@
+n_traj = 50
+num_rep = 1
+mutant_type_list = A6NDU8
+n_window = 200
+co_msm_data_file = /storage/home/yuj179/mygroup/protein_Ubq/continuous_synthesis/A6NDU8/1-50/analysis/msm_data.npz
+post_msm_data_file = /storage/home/yuj179/mygroup/protein_Ubq/post_translation/A6NDU8/1-50/analysis/msm_data.npz
+
