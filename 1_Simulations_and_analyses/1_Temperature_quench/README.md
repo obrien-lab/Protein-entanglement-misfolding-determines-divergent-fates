@@ -40,4 +40,5 @@ Within each protein subfolder, you will find:
     Configuration file for `MSM_sample.py`. Update file paths as needed when running on your system
   - `get_MSTS.py`  
     Python script to plot state probabilities as a function of simulation time
-
+  - `state_struct/`
+    Folder generated after running `MSM_sample.py`, containing representative structures (`.pdb`), VMD visualization scripts (`.tcl`) and rendered images (`.tga`)
