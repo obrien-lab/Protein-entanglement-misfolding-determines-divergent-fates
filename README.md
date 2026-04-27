@@ -6,11 +6,13 @@ The folder `0_Dataset_curation_and_logistic_regression` contains scripts and inp
 - Integrating entanglement datasets with the birth-dating dataset  
 - Performing logistic regression to test statistical associations  
 - Selecting proteins for downstream molecular dynamics (MD) simulations  
+
 This part required 200MB of storage, 1 CPU hour with 16 GB of RAM, no GPUs were required.
 
 The folder `1_Simulations_and_analyses` contains scripts and input files for:
 - Running MD simulations  
 - Performing analyses on the resulting simulation trajectories  
+
 This part required 2.2TB of storage, 10^5 CPU hours with 128 GB of RAM and 10^4 GPU hours.
 
 Please refer to the `README` files within each folder for detailed instructions and additional information.
