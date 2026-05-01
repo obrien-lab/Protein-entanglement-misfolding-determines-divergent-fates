@@ -58,21 +58,21 @@ Within each protein subfolder, you will find:
 
 
   ## Workflow
-  ```mermaid
+```mermaid
 graph TD;
   A[In each protein folder, sbatch job.slurm] --> B[sbatch analysis_Q.slurm]
   A --> C[sbatch analysis_G.slurm]
   A --> D[sbatch analysis_chirality.slurm]
   A --> E[sbatch batch_backmap.slurm]
   E --> F[sbatch calc_aa_SASA.slurm]
-  C -->|cd ./analysis/| G[python get_order_parameters.py Tq]
-  D --> G
-  E --> G
+  B -->|cd ./analysis/| G[python get_order_parameters.py Tq]
+  C -->|cd ./analysis/| G
+  D -->|cd ./analysis/| G
   G --> H[python get_rm_traj_id.py]
   H --> I[python MSM_sample.py -f MSM_sample.cntrl]
   I --> J[python get_MSTS.py]
-  I -->|After all 30 proteins were analyzed| K[analysis/misfolding_propensity]
-  I --> L[analysis/Q_norm]
-  F --> M [analysis/rSASA]
+  I -->|After all 30 proteins were analyzed, go back to the root folder| K[analysis/misfolding_propensity]
+  I -->|After all 30 proteins were analyzed, go back to the root folder| L[analysis/Q_norm]
+  F -->|After all 30 proteins were analyzed, go back to the root folder| M[analysis/rSASA]
   I --> M
 ```
