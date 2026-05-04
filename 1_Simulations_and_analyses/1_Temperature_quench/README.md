@@ -3,8 +3,8 @@
 | `YU_E` | Subfolders containing input files for the 10 young-ubiquitinated and entangled proteins |
 | `NU_NE` | Subfolders containing input files for the 10 non-ubiquitinated and non-entangled proteins |
 | `NU_E` | Subfolders containing input files for the 10 non-ubiquitinated and entangled proteins |
-| `analysis/misfolding_propensity` | Python script for computing misfolding propensity using the last 500 ns, 300 ns, and 100 ns of the simulation trajectories. This generates Fig. 2G and H. |
-| `analysis/Q_norm` | Python script for computing Q<sub>norm</sub> using the last 500 ns, 300 ns, and 100 ns of the simulation trajectories |
+| `analysis/misfolding_propensity` | • Python script v5 for computing misfolding propensity using the last 500 ns, 300 ns, and 100 ns of the 2-μs simulation trajectories. This generates Fig. 2G and H. <br> • Python script v6 for computing misfolding propensity using every 1000 ns in the extended simulation trajectories (20 μs). The metastable states were clustered using order parameters Q and G computed every 10 frames. This generates Fig. S21A and B. |
+| `analysis/Q_norm` | • Python script v4 for computing Q<sub>norm</sub> using the last 500 ns, 300 ns, and 100 ns of the 2-μs simulation trajectories. <br> • Python script v5 for computing Q<sub>norm</sub> using every 1000 ns in the extended simulation trajectories (20 μs). The metastable states were clustered using order parameters Q and G computed every 10 frames. This generates Fig. S21C and D. |
 | `analysis/rSASA` | Python script for computing rSASA using the last 100 ns SASA values of the simulation trajectories |
 
 | File | Contents |
