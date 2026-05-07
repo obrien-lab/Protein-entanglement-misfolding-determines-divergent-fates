@@ -15,11 +15,13 @@ Within each protein subfolder, you will find:
   - Secondary structural elements definition file (`secondary_struc_defs.txt`)
   - Domain definition file (`domain_def.dat`)
   - Coarse-grained (CG) protein model files (`.psf`, `.cor`, `.prm`, `.xml`, `.top`)
+  
   All these files were obtained from the previous step [`0_gen_parameters`](../0_gen_parameters/)
 
 - Folders `1` to `50` (replicates) containing
   - Full length nascen chain protein `.psf` file
   - The protein coordinates and velocities obtained at the end of co-translational simulation (`.ncrst`)
+  
   All these files were obtained from the previous step [`2_continuous_synthesis`](../2_continuous_synthesis/)
 
 - `extend_sim_roar.py`  
