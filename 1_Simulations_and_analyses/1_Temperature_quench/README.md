@@ -23,7 +23,7 @@ Within each protein subfolder, you will find:
   All these files were obtained from the previous step [`0_gen_parameters`](../0_gen_parameters/)
 
 - `Tq.cntrl`  
-  Simulation setup parameters for 2-microsecond temperature-quench simulations. User can change the simulation steps to reproduce the 20-microsecond simulations as well. Details of the input parameters can be found [here](https://github.com/obrien-lab/cg_simtk_protein_folding/wiki/temperature_quenching.py).
+  Simulation setup parameters for 2-microsecond temperature-quench simulations. User can change the simulation steps to reproduce the 20-microsecond simulations as well. The code and usage instructions can be found [here](https://github.com/obrien-lab/cg_simtk_protein_folding/wiki/temperature_quenching.py).
 
 - `job.slurm`  
   SLURM script for submitting the simulation job to a GPU cluster. The underlying code and usage instructions are available [here](https://github.com/obrien-lab/cg_simtk_protein_folding/wiki/temperature_quenching.py). This will create two folders `./output` and `./traj`.
