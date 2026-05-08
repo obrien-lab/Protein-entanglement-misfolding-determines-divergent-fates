@@ -6,7 +6,7 @@
 | File | Contents |
 | ------ | -------- |
 | `get_co_trans_order_parameters_v2.py` | Python script to parse order parameters Q and G from text files and save them as NumPy arrays |
-| `get_co_trans_order_parameters_v2.py` | Python script to cluster co-translational folding simulation structures into metastable states and extract representative structures |
+| `build_co_trans_kinetic_model_v2.py` | Python script to cluster co-translational folding simulation structures into metastable states and extract representative structures |
 
 Within each protein subfolder, you will find:
 
