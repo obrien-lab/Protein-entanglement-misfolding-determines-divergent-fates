@@ -6,7 +6,7 @@
 | File | Contents |
 | ------ | -------- |
 | `get_post_trans_order_parameters_v2.py` | Python script to parse order parameters Q, G and K from text files and save them as NumPy arrays |
-| `get_post_trans_order_parameters_v2.py` | Python script to cluster post-translational folding simulation structures into metastable states, extract representative structures and plot −ln(P) and state maps |
+| `build_post_trans_kinetic_model_v2.py` | Python script to cluster post-translational folding simulation structures into metastable states, extract representative structures and plot −ln(P) and state maps |
 
 Within each protein subfolder, you will find:
 
