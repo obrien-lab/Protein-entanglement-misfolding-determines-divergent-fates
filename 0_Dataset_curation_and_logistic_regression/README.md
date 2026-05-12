@@ -1,6 +1,8 @@
 
 Use the jupyter notebook `Statistical_association.ipynb` and the data files to reproduce the data curation, logistic regression and protein selection for the [Meadow 2024](https://doi.org/10.1016/j.mcpro.2024.100791) dataset.
 
+Use the jupyter notebook `Dataset_statistic.ipynb` and the data files to reproduce the statistical numbers reported in the paper for the [Meadow 2024](https://doi.org/10.1016/j.mcpro.2024.100791) dataset.
+
 Use the jupyter notebook `Statistical_association_other_datasets.ipynb` and the data files to reproduce the data curation and logistic regression for the three additional datasets obtained from [Wagner 2011](https://doi.org/10.1074/mcp.M111.013284) and [Kim 2011](https://doi.org/10.1016/j.molcel.2011.08.025).
 
 The data files include:
