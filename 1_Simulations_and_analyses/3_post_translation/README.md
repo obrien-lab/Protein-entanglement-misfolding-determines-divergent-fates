@@ -25,7 +25,7 @@ Within each protein subfolder, you will find:
   All these files were obtained from the previous step [`2_continuous_synthesis`](../2_continuous_synthesis/)
 
 - `extend_sim_roar.py`  
-  Python script to run a single post-translational simulation trajectory. The underlying code and usage instructions are available [here](https://github.com/obrien-lab/cg_simtk_protein_folding/wiki/post_trans_single_run_v2.py). This will generate `dcd`, `ncrst` and `out` files in each replicate's folder.
+  Python script to run a single post-translational simulation trajectory. The underlying code and usage instructions are available [here](https://github.com/obrien-lab/cg_simtk_protein_folding/wiki/post_trans_single_run_v2.py). This will generate `dcd`, `ncrst` and `out` files in each replicate's folder. The trajectories and outputs are available on [CyVerse](https://data.cyverse.org/dav-anon/iplant/projects/NCEMS/working-groups/protein-misfolding-aging/data/Protein-entanglement-misfolding-determines-divergent-fates/post_translation/).
 
 - `job_monitor_roar.py`  
   Python script to monitor and manage jobs running in the SLURM system.
