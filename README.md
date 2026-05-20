@@ -14,7 +14,8 @@ The folder `1_Simulations_and_analyses` contains scripts and input files for:
 - Running MD simulations  
 - Performing analyses on the resulting simulation trajectories  
 
-This part required 2.2TB of storage, 10^5 CPU hours with 128 GB of RAM and 10^4 GPU hours.
+This part required 2.2TB of storage, 10^5 CPU hours with 128 GB of RAM and 10^4 GPU hours. All simulation trajectories are publicly available on [CyVerse](https://data.cyverse.org/dav-anon/iplant/projects/NCEMS/working-groups/protein-misfolding-aging/data/Protein-entanglement-misfolding-determines-divergent-fates/).
+
 
 Please refer to the `README` files within each folder for detailed instructions and additional information.
 
