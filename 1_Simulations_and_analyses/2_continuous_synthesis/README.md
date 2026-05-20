@@ -22,7 +22,7 @@ Within each protein subfolder, you will find:
   Simulation setup parameters for continuous synthesis simulations. Details can be found [here](https://github.com/obrien-lab/cg_simtk_protein_folding/wiki/continuous_synthesis_v7.py).
 
 - `job.slurm`  
-  SLURM script for submitting the simulation job to a GPU cluster. The underlying code and usage instructions are available [here](https://github.com/obrien-lab/cg_simtk_protein_folding/wiki/continuous_synthesis_v7.py). This will create two folders `./output` and `./traj`.
+  SLURM script for submitting the simulation job to a GPU cluster. The underlying code and usage instructions are available [here](https://github.com/obrien-lab/cg_simtk_protein_folding/wiki/continuous_synthesis_v7.py). This will create two folders `./output` and `./traj`. The trajectories and outputs are available on [CyVerse](https://data.cyverse.org/dav-anon/iplant/projects/NCEMS/working-groups/protein-misfolding-aging/data/Protein-entanglement-misfolding-determines-divergent-fates/continuous_synthesis/).
 
 - `analysis_qbb_vs_T.slurm`  
   SLURM script for submitting the analysis job for the order parameter **Q** to a CPU cluster. The underlying code and usage instructions are available [here](https://github.com/obrien-lab/cg_simtk_protein_folding/wiki/calc_cont_synth_qbb_vs_T.py). This will create a folder `analysis/qbb_full_vs_T`
