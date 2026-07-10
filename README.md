@@ -23,7 +23,7 @@ The refolding trajectories of the temperature quench simulations for all 30 prot
 | -------- | -------- |
 | Q0PNE2 | [MDR00022226](https://mdrepo.org/explore/22226) |
 | P16152 | [MDR00022184](https://mdrepo.org/explore/22184) |
-| P29218 | []() |
+| P29218 | [MDR00022283](https://mdrepo.org/explore/22283) |
 | P00491 | [MDR00022173](https://mdrepo.org/explore/22173) |
 | P19623 | []() |
 | A8MXV4 | [MDR00022171](https://mdrepo.org/explore/22171) |
