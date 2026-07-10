@@ -14,8 +14,49 @@ The folder `1_Simulations_and_analyses` contains scripts and input files for:
 - Running MD simulations  
 - Performing analyses on the resulting simulation trajectories  
 
-This part required 2.2TB of storage, 10^5 CPU hours with 128 GB of RAM and 10^4 GPU hours. All simulation trajectories are publicly available on [CyVerse](https://data.cyverse.org/dav-anon/iplant/projects/NCEMS/working-groups/protein-misfolding-aging/data/Protein-entanglement-misfolding-determines-divergent-fates/).
+This part required 2.2TB of storage, 10^5 CPU hours with 128 GB of RAM and 10^4 GPU hours. 
 
+All simulation trajectories are publicly available on [CyVerse](https://data.cyverse.org/dav-anon/iplant/projects/NCEMS/working-groups/protein-misfolding-aging/data/Protein-entanglement-misfolding-determines-divergent-fates/).
+
+The refolding trajectories of the temperature quench simulations for all 30 proteins are also available on MDRepo, with the following IDs:
+| YU-E proteins | MDRepo ID |
+| -------- | -------- |
+| Q0PNE2 | [MDR00022226](https://mdrepo.org/explore/22226) |
+| P16152 | [MDR00022184](https://mdrepo.org/explore/22184) |
+| P29218 | []() |
+| P00491 | [MDR00022173](https://mdrepo.org/explore/22173) |
+| P19623 | []() |
+| A8MXV4 | [MDR00022171](https://mdrepo.org/explore/22171) |
+| P04350 | [MDR00022177](https://mdrepo.org/explore/22177) |
+| P31150 | []() |
+| O95394 | [MDR00022172](https://mdrepo.org/explore/22172) |
+| P52888 | [MDR00022278](https://mdrepo.org/explore/22278) |
+
+| NU-NE proteins | MDRepo ID |
+| -------- | -------- |
+| Q8WV22 | [MDR00022239](https://mdrepo.org/explore/22239) |
+| A6NDU8 | [MDR00022148](https://mdrepo.org/explore/22148) |
+| P30711 | [MDR00022223](https://mdrepo.org/explore/22223) |
+| Q9BU89 | [MDR00022242](https://mdrepo.org/explore/22242) |
+| Q13825 | [MDR00022282](https://mdrepo.org/explore/22282) |
+| Q6NVY1 | [MDR00022232](https://mdrepo.org/explore/22232) |
+| P16520 | [MDR00022188](https://mdrepo.org/explore/22188) |
+| Q8IV38 | [MDR00022235](https://mdrepo.org/explore/22235) |
+| P02774 | [MDR00022174](https://mdrepo.org/explore/22174) |
+| Q12996 | [MDR00022281](https://mdrepo.org/explore/22281) |
+
+| NU-E proteins | MDRepo ID |
+| -------- | -------- |
+| P07738 | [MDR00022181](https://mdrepo.org/explore/22181) |
+| Q9UIV1 | [MDR00022274](https://mdrepo.org/explore/22274) |
+| Q9UBP6 | [MDR00022280](https://mdrepo.org/explore/22280) |
+| Q9Y316 | [MDR00022275](https://mdrepo.org/explore/22275) |
+| Q63HM1 | [MDR00022276](https://mdrepo.org/explore/22276) |
+| P39748 | []() |
+| Q6DKJ4 | [MDR00022229](https://mdrepo.org/explore/22229) |
+| Q9HB40 | [MDR00022279](https://mdrepo.org/explore/22279) |
+| Q96C11 | [MDR00022277](https://mdrepo.org/explore/22277) |
+| Q9H6R3 | []() |
 
 Please refer to the `README` files within each folder for detailed instructions and additional information.
 
