@@ -1,5 +1,5 @@
 # Protein entanglement misfolding determines divergent fates
-This repository contains scripts and input files to reproduce the work described in the manuscript titled **"Protein entanglement misfolding determines divergent fates: proteasomal degradation or persistence in near-native misfolded states."**
+This repository contains scripts and input files to reproduce the work described in the paper titled **"Protein entanglement misfolding influences whether proteins undergo proteasomal degradation or persist in near-native misfolded state"**
 
 The folder `0_Dataset_curation_and_logistic_regression` contains scripts and input files for:
 - Processing the human proteome birth-dating dataset  
